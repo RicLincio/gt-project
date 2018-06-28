@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  26 JUN 2018 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  28 JUN 2018 18:52
 entering extended mode
 **"./The Game Theory behind GANs.tex"
 ("The Game Theory behind GANs.tex"
@@ -849,14 +849,31 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
  (Intro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
- []
+! LaTeX Error: Command \texteuro unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...ral ways, e.g. implicitly or explicitly, â€
+                                                  ¦)
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+! LaTeX Error: Command \textbrokenbar unavailable in encoding OT1.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...al ways, e.g. implicitly or explicitly, â€¦
+                                                  )
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 ) (related.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
@@ -866,10 +883,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Warning: Citation `Zargham-2011' on page 1 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Sadler-2006' on page 1 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Shannon-1948' on page 1 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Boyd-2011' on page 1 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Zordan-2014' on page 1 undefined on input line 12.
+
 ) [1{C:/Users/Riccardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]) (model.tex) (results.tex) (conclusions.tex
+]
+(model.tex) (results.tex) (conclusions.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -884,7 +918,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-) ("The Game Theory behind GANs.bbl")
+) ("The Game Theory behind GANs.bbl"
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \end{thebibliography}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -897,30 +944,37 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 - LAST -
-Extra skip:22.448pt
+Extra skip:23.73503pt
 Left:672.0pt/0.0pt
-Right:576.53987pt/1.73193pt
-Output:530.69229pt
-[2] ("The Game Theory behind GANs.aux") ) 
+Right:433.08484pt/0.0pt
+Output:282.0148pt
+[2] ("The Game Theory behind GANs.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17662 strings out of 493305
- 305951 string characters out of 3138865
- 375972 words of memory out of 3000000
- 20983 multiletter control sequences out of 15000+200000
- 574222 words of font info for 115 fonts, out of 3000000 for 9000
+ 17659 strings out of 493305
+ 305916 string characters out of 3138865
+ 364957 words of memory out of 3000000
+ 20981 multiletter control sequences out of 15000+200000
+ 573086 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,63p,2130b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "The Game Theory behind GANs.pdf" (2 pages, 103406 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on "The Game Theory behind GANs.pdf" (2 pages, 122739 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

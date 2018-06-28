@@ -1,17 +1,8 @@
-% !TEX root = template.tex
 
 \section{Introduction}
 \label{sec:introduction}
 
-\red{Maximum length for the whole report is 9 pages. Abstract, introduction and related works should take max two pages.}\\
-
-\MR{A good way of structuring the introduction is as follows: 
-\begin{itemize}
-\item one paragraph to introduce your work, describing the scenario {\it at large}, its relevance, to prepare the reader to what follows and convince her/him that the paper focuses on an important setup / problem. 
-\item a second paragraph where you immediately delve into the specific problem that is still to be faced, starting to point the finger towards your contribution. Here, you describe the importance of such problem, providing examples (through references) of previous solutions attempts, and of why these failed {\it to provide a complete answer}. This second paragraph should not be too long, as otherwise the reader will get bored and will abandon your paper... It should be concisely written, something like 4 to 5 lines.
-\item a third paragraph were you state what you do in the paper, this should also be concisely written and to the point. A good rule of thumb is to make it max 10 lines. Here, you should state up front 1) the problem you solve, 2) its importance, 3) the technique you use, 4) stress the novelty of such technique / what you do. 5) comment on how your work / results can be reused / exploited to achieve further technical or practical goals.
-\item after this, you provide an itemized list to summarize the paper contributions: maximum six items, maximum four lines each.
-\item you finish up by reporting the paper structure, this should be three to four lines. It is customary to do so, although I admit it may be of little use.\\
-\end{itemize}}
-
-\MR{Lately, I tend to write introduction plus abstract within a single page. This forces me to focus on the important messages that I want to deliver about the paper, leaving out all the blah blah. \textbf{Remember:} 1) {\it less is more}, 2) writing a compact ({\it snappy}) piece of technical text is much more difficult than writing with no space constraints.}
+GANs, namely Generative Adversarial Networks, are a hot topic nowadays. Since their first description in \cite{} they have gained more and more momentum because they are able to sidestep some of the difficulties encountered when trying to apply deep learning to generative models: until then, deep learning has had indeed a greater impact on discriminative models, leaving less success to deep generative ones. The purpose of a generative model is, given a training set of sample data distributed according to an unknown probability density function (pdf) $p_{data}$, to generate samples with a distribution $p_g$ that mimics $p_{data}$. (This can be done in several ways, e.g. implicitly or explicitly, …)
+[HOW] As suggested by the name, in GAN framework this is achieved by putting in competition two entities: a generator and a discriminator. The task of the generator (G) is to generate data that can be regarded as true by the discriminator, while the discriminator (D) has the purpose of correctly classifying real data and fake data. The classical real-life analogy with this process involves counterfeiters trying to produce fake currency and the police trying to detect it. Usually these two entities are implemented with neural networks, so that the process by which they learn is of trial and error. However the GANs are difficult to train, because they present several implementation problems which lead to results that might be different from what expected.
+[GENERATIVE MODELS]
+[] Ideally then $p_g = p_{data}$, but since the latter is unknown the objective of the training should be defined in a slightly different way. 

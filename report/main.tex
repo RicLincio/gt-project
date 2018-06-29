@@ -33,6 +33,7 @@
 \usepackage{setspace}
 \usepackage{stackengine}
 \usepackage{tikz}
+\usepackage{natbib}
 
 \usetikzlibrary{calc, positioning}
 \tikzset{
@@ -122,15 +123,17 @@
 \maketitle		
 
 \begin{abstract}
-Abstract
+GANs, namely Generative Adversarial Networks, are a hot topic nowadays.
 \end{abstract}
 
 \input{introduction}
+\input{relatedwork}
+\input{expsetting}
 \input{results}
 \input{conclusions}
 
 \bibliography{biblio}
-
+\bibliographystyle{plain}
 
 
 \end{document}

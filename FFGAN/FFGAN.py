@@ -133,10 +133,10 @@ class GAN(object):
 				self.loss_D[(e-1)*n_batch + i] = loss_D_i
 			
 				if i % 5 == 0:
-					print('Alpha : ',self.alpha , '|| Epoch :', e,'|| Mini-Batch :', '{0:.2f}'.format(100.*(i+1) / n_batch),'%', '|| D Loss Train : ', loss_D_i, 
-						'|| G Loss Train : ', loss_G_i, end='\r')
-			print('Alpha : ',self.alpha , '|| Epoch :', e,'|| Mini-Batch :', '{0:.2f}'.format(100.*(i+1) / n_batch),'%', '|| D Loss Train : ', loss_D_i, 
-				'|| G Loss Train : ', loss_G_i)
+					print('Alpha : ',self.alpha , '|| Epoch :', e,'|| Mini-Batch :', '{0:.2f}'.format(100.*(i+1) / n_batch),'%', '|| D Loss : ', loss_D_i, 
+						'|| G Loss : ', loss_G_i, end='\r')
+			print('Alpha : ',self.alpha , '|| Epoch :', e,'|| Mini-Batch :', '{0:.2f}'.format(100.*(i+1) / n_batch),'%', '|| D Loss : ', loss_D_i, 
+				'|| G Loss : ', loss_G_i)
 
 			if (e == 1) or (e % generate_every == 0):
 				self.save_generated_images(e)

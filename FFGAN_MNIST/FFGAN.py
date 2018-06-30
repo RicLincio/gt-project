@@ -22,6 +22,9 @@ class GAN(object):
 		self.G, self.D, self.GAN = self.get_models() # Models
 		self.loss_G, self.loss_D = None, None
 
+	def loss_boost(self, y_true, y_pred):
+		return -K.log(y_pred)
+
 	def get_models(self):
 
 		# Generator
@@ -47,7 +50,7 @@ class GAN(object):
 		x = G(z)
 		GAN = Model(inputs=z, outputs=D(x))
 		opt_GAN = Adam(lr=self.lr, beta_1=0.5)
-		GAN.compile(loss='binary_crossentropy', optimizer=opt_GAN)
+		GAN.compile(loss=self.loss_boost, optimizer=opt_GAN)
 
 		return G, D, GAN
 

@@ -28,16 +28,41 @@ class GAN(object):
 	def get_models(self):
 
 		# Generator
+		#G = Sequential()
+		#G.add(Dense(128, input_dim=self.z_dim, kernel_initializer=initializers.RandomNormal(stddev=0.02)))
+		#G.add(LeakyReLU(0.2))
+		#G.add(Dense(784, activation='tanh'))
+		#opt_G = Adam(lr=self.lr, beta_1=0.5)
+		#G.compile(loss='binary_crossentropy', optimizer=opt_G)
+
 		G = Sequential()
-		G.add(Dense(128, input_dim=self.z_dim, kernel_initializer=initializers.RandomNormal(stddev=0.02)))
+		G.add(Dense(256, input_dim=self.z_dim, kernel_initializer=initializers.RandomNormal(stddev=0.02)))
+		G.add(LeakyReLU(0.2))
+		G.add(Dense(512))
+		G.add(LeakyReLU(0.2))
+		G.add(Dense(1024))
 		G.add(LeakyReLU(0.2))
 		G.add(Dense(784, activation='tanh'))
 		opt_G = Adam(lr=self.lr, beta_1=0.5)
 		G.compile(loss='binary_crossentropy', optimizer=opt_G)
 
 		# Discriminator
+		#D = Sequential()
+		#D.add(Dense(128, input_dim=784, kernel_initializer=initializers.RandomNormal(stddev=0.02)))
+		#D.add(LeakyReLU(0.2))
+		#D.add(Dropout(0.3))
+		#D.add(Dense(1, activation='sigmoid'))
+		#opt_D = Adam(lr=self.lr, beta_1=0.5)
+		#D.compile(loss='binary_crossentropy', optimizer=opt_D)
+
 		D = Sequential()
-		D.add(Dense(128, input_dim=784, kernel_initializer=initializers.RandomNormal(stddev=0.02)))
+		D.add(Dense(1024, input_dim=784, kernel_initializer=initializers.RandomNormal(stddev=0.02)))
+		D.add(LeakyReLU(0.2))
+		D.add(Dropout(0.3))
+		D.add(Dense(512))
+		D.add(LeakyReLU(0.2))
+		D.add(Dropout(0.3))
+		D.add(Dense(256))
 		D.add(LeakyReLU(0.2))
 		D.add(Dropout(0.3))
 		D.add(Dense(1, activation='sigmoid'))

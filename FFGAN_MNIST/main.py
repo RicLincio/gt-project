@@ -13,6 +13,6 @@ X_train = X_train.reshape(60000, 784)
 # alpha = [0.1, 0.3, 0.5, 0.7, 0.9]
 #for a in alpha:
 model = GAN(alpha=0.5, lr=1e-4)
-model.train(X_train, epochs=200, batch_size=256, generate_every=5)
+model.train(X_train, epochs=50, batch_size=256, generate_every=5)
 
 

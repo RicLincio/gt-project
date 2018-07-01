@@ -1,1 +1,6 @@
 \section{CONCLUSIONS} \label{conclusions}
+
+In this report we presented a review of GAN framework, as presented in the original paper \cite{NIPS2014_5423}, with a game theoretical approach, going through the resolution method to find a Nash equilibrium. We then proposed a parametrization of the loss function by varying the percentage of true images used for the training in each mini-batch, adapting the analysis previously presented to this new case. Then we tried to apply our own implementation of the model to three different datasets, two of which are generated ad-hoc and used as toy examples, while the last one is the MNIST dataset, well known in literature for this kind of tasks.
+Results obtained show that when mini-batches are more balanced, the generator model performs better, but also trainings with less true samples can be performed with good results, which opens the door to the use of GANs even for slightly smaller datasets.
+
+Another possible way to organise mini-batches, that could be investigated in the future, is to introduce randomness in the percentage of true samples per mini-batch: $\alpha$ for example could stand for the probability of passing a true sample. The behaviour in this case should be similar, on average, to the one with $\alpha$ indicating a deterministic ratio.

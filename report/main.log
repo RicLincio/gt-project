@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  1 JUL 2018 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  1 JUL 2018 18:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -1720,27 +1720,24 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )) (relatedwork.tex
-Overfull \hbox (4.49866pt too wide) detected at line 10
-[]
- []
-
 [1{C:/Users/Riccardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Overfull \hbox (17.80057pt too wide) detected at line 18
+Overfull \hbox (4.49866pt too wide) detected at line 23
+[]
+ []
+
+
+Overfull \hbox (4.49866pt too wide) detected at line 59
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (4.49866pt too wide) detected at line 46
-[]
- []
-
-) (expsetting.tex
+)
+(expsetting.tex
 
 Package natbib Warning: Citation `bibid' on page 2 undefined on input line 3.
 
@@ -1777,7 +1774,7 @@ Here is how much of TeX's memory you used:
  34658 multiletter control sequences out of 15000+200000
  636816 words of font info for 125 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,63p,1376b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,63p,979b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1790,9 +1787,9 @@ ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 153514 bytes).
+Output written on main.pdf (3 pages, 148795 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

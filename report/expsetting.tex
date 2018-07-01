@@ -1,24 +1,27 @@
 \section{EXPERIMENTAL SETTING} \label{expsetting}
 
-For our project, we implemented a version of NSGAN which can be found at \cite{bibid}. Usually the training of neural networks occurs after mini-batches of data are passed to them: for the discriminator network D, in a mini-batch there are the same number of true and of fake images. We instead carried out the training with different configurations, where D is passed different true-to-fake data ratios: this is done in practice defining a parameter $\alpha$ that represents the portion of true data with respect to the size of the mini-batch. This results in a parametrisation of the loss function as follows: [FOR D]
+For our project, we implemented a version of NS-GAN which can be found at \cite{bibid}. The training of the two neural networks, depicted in FIG.X, occurs after mini-batches of data are passed to them: for the discriminator network D, in a mini-batch there are usually the same number of true and of fake images. We instead carried out the training with different configurations, where D is passed different true-to-fake data ratios: this is done in practice defining a parameter $\alpha$ that represents the portion of true data with respect to the size of the mini-batch. This results in a parametrisation of the loss functions as follows:
 \begin{align*}
-	\alpha\cdot\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] + (1-\alpha)\cdot\mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))]
+	L^{(D)}=-\alpha\cdot\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] \\
+	- (1-\alpha)\cdot\mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))]\\
+	L^{(G)}=??
 \end{align*}
 Performing the same analysis as before, we found that the optimal discriminator should have the form:
 \begin{align*}
-D_{\alpha}^*(x) = \frac{\alpha \cdot p_{data}(x)}{\alpha \cdot p_{data}(x) + (1-\alpha)\cdot p_g(x)}
+	D_{\alpha}^*(x) = \frac{\alpha \cdot p_{data}(x)}{\alpha \cdot p_{data}(x) + (1-\alpha)\cdot p_g(x)}
 \end{align*}
-and that the loss of the generator is minimized, as before, when
+and that the loss of the generator is minimized, again, when
 \begin{align*}
-p_g = p_{data},
+	p_g = p_{data},
 \end{align*}
 from which the optimal D can be rewritten as
 \begin{align*}
-D_{\alpha}^*(x) = \alpha.
+	D_{\alpha}^*(x) = \alpha.
 \end{align*}
-To support these results, it can be noticed also that when setting $\alpha = 0.5$, i.e. in the same case previously analysed with the same amount of true and fake images in a mini-batch, the results are consistent.
+In support of these results, it can also be noticed that when setting $\alpha = 0.5$, i.e. when there are the same amount of true and fake images in a mini-batch, results are consistent with what found in \ref{relatedwork}.
 
-Before testing this model on MNIST dataset, we tried it on different ad-hoc 2D distributions, with the following parameters:
-
-
-The results obtained with them are reported in \ref{results}, together with the same plot obtained for the MNIST dataset.
+To evaluate the effects of this parametrisation, we preliminarily trained the NS-GAN models on two different 2D distributions, defined ad-hoc and affected by noise: first on a line described by a polynomial function and then on a circle.
+The values of $\alpha$ that we tested are $\alpha = \{0.1,0.3,0.5,0.7,0.9\}$.
+Distribution parameters in these cases are irrelevant because they would influence only the scale of the generated points and, anyway, the true generating distribution couldn't be compared to the one defined by G which is inferred implicitly.
+Once evaluated the two artificial distribution, we tested our code also on the MNIST dataset on the same values of $\alpha$.
+All results are reported in \ref{results}.

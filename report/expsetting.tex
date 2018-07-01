@@ -1,1 +1,24 @@
 \section{EXPERIMENTAL SETTING} \label{expsetting}
+
+For our project, we implemented a version of NSGAN which can be found at \cite{bibid}. Usually the training of neural networks occurs after mini-batches of data are passed to them: for the discriminator network D, in a mini-batch there are the same number of true and of fake images. We instead carried out the training with different configurations, where D is passed different true-to-fake data ratios: this is done in practice defining a parameter $\alpha$ that represents the portion of true data with respect to the size of the mini-batch. This results in a parametrisation of the loss function as follows: [FOR D]
+\begin{align*}
+	\alpha\cdot\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] + (1-\alpha)\cdot\mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))]
+\end{align*}
+Performing the same analysis as before, we found that the optimal discriminator should have the form:
+\begin{align*}
+D_{\alpha}^*(x) = \frac{\alpha \cdot p_{data}(x)}{\alpha \cdot p_{data}(x) + (1-\alpha)\cdot p_g(x)}
+\end{align*}
+and that the loss of the generator is minimized, as before, when
+\begin{align*}
+p_g = p_{data},
+\end{align*}
+from which the optimal D can be rewritten as
+\begin{align*}
+D_{\alpha}^*(x) = \alpha.
+\end{align*}
+To support these results, it can be noticed also that when setting $\alpha = 0.5$, i.e. in the same case previously analysed with the same amount of true and fake images in a mini-batch, the results are consistent.
+
+Before testing this model on MNIST dataset, we tried it on different ad-hoc 2D distributions, with the following parameters:
+
+
+The results obtained with them are reported in \ref{results}, together with the same plot obtained for the MNIST dataset.

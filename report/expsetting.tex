@@ -4,7 +4,7 @@ For our project, we implemented a version of NS-GAN which can be found at \cite{
 \begin{align*}
 	L^{(D)}=-\alpha\cdot\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] \\
 	- (1-\alpha)\cdot\mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))]\\
-	L^{(G)}=??
+	L^{(G)}=-L^{(D)}
 \end{align*}
 Performing the same analysis as before, we found that the optimal discriminator should have the form:
 \begin{align*}

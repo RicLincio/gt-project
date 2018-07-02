@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  1 JUL 2018 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  2 JUL 2018 10:33
 entering extended mode
 **./main.tex
 (main.tex
@@ -1719,29 +1719,52 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)) (relatedwork.tex
+)
+<./plots/GAN_model.png, id=34, 428.60126pt x 632.3625pt>
+File: ./plots/GAN_model.png Graphic file (type png)
+<use ./plots/GAN_model.png>
+Package pdftex.def Info: ./plots/GAN_model.png  used on input line 16.
+(pdftex.def)             Requested size: 107.15004pt x 158.09024pt.
+) (relatedwork.tex
 [1{C:/Users/Riccardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
+ <./plots/GAN_model.png>]
+
+LaTeX Warning: Reference `netG' on page 2 undefined on input line 9.
+
+
 Overfull \hbox (4.49866pt too wide) detected at line 23
 []
  []
+
+
+Underfull \vbox (badness 1460) has occurred while \output is active []
 
 
 Overfull \hbox (4.49866pt too wide) detected at line 59
 []
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(expsetting.tex
+<./plots/G_model.png, id=61, 702.625pt x 455.7025pt>
+File: ./plots/G_model.png Graphic file (type png)
+<use ./plots/G_model.png>
+Package pdftex.def Info: ./plots/G_model.png  used on input line 65.
+(pdftex.def)             Requested size: 175.6558pt x 113.92534pt.
+<./plots/D_model.png, id=63, 686.565pt x 450.68375pt>
+File: ./plots/D_model.png Graphic file (type png)
+<use ./plots/D_model.png>
+Package pdftex.def Info: ./plots/D_model.png  used on input line 72.
+(pdftex.def)             Requested size: 171.64082pt x 112.67065pt.
+) (expsetting.tex
 
 Package natbib Warning: Citation `bibid' on page 2 undefined on input line 3.
 
-) (results.tex [2]) (conclusions.tex) (main.bbl
+[2 <./plots/G_model.png>]) (results.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(conclusions.tex) (main.bbl [3 <./plots/D_model.png>]
 Underfull \hbox (badness 7203) in paragraph at lines 35--40
 \T1/ptm/m/n/10 Xi-aolei Huang, Xi-ao-gang Wang, and Dim-itris N.
  []
@@ -1750,24 +1773,30 @@ Underfull \hbox (badness 7203) in paragraph at lines 35--40
 
 Package natbib Warning: There were undefined citations.
 
-[3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+[4
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3C531F5E05F0BB053851A87206E80323;242.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 31624 strings out of 493305
- 576871 string characters out of 3138865
- 640503 words of memory out of 3000000
- 34658 multiletter control sequences out of 15000+200000
+ 31659 strings out of 493305
+ 577413 string characters out of 3138865
+ 640225 words of memory out of 3000000
+ 34684 multiletter control sequences out of 15000+200000
  636816 words of font info for 125 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,63p,979b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,63p,979b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1780,9 +1809,9 @@ ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 153667 bytes).
+Output written on main.pdf (4 pages, 307773 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

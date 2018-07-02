@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  2 JUL 2018 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  2 JUL 2018 16:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -1580,60 +1580,60 @@ LaTeX Warning: Unused global option(s):
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 115.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 116.
 
 -- Lines per column: 57 (approximate, difference = 11.38536pt).
 (C:\Users\Riccardo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
@@ -1651,7 +1651,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
 \everyMPtoPDFconversion=\toks46
 )
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring OFF on input line 115.
+Package hyperref Info: Link coloring OFF on input line 116.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1660,9 +1660,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count342
 )
-LaTeX Info: Redefining \ref on input line 115.
-LaTeX Info: Redefining \pageref on input line 115.
-LaTeX Info: Redefining \nameref on input line 115.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 (main.out) (main.out)
 \@outlinefile=\write5
@@ -1724,62 +1724,111 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 ]
-Underfull \vbox (badness 2884) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <./plots/GAN_model.png, id=66, 428.60126pt x 632.3625pt>
 File: ./plots/GAN_model.png Graphic file (type png)
 <use ./plots/GAN_model.png>
-Package pdftex.def Info: ./plots/GAN_model.png  used on input line 74.
+Package pdftex.def Info: ./plots/GAN_model.png  used on input line 77.
 (pdftex.def)             Requested size: 107.15004pt x 158.09024pt.
 <./plots/G_model.png, id=68, 702.625pt x 455.7025pt>
 File: ./plots/G_model.png Graphic file (type png)
 <use ./plots/G_model.png>
-Package pdftex.def Info: ./plots/G_model.png  used on input line 81.
+Package pdftex.def Info: ./plots/G_model.png  used on input line 84.
 (pdftex.def)             Requested size: 245.92242pt x 159.49826pt.
 <./plots/D_model.jpg, id=70, 686.565pt x 449.68pt>
 File: ./plots/D_model.jpg Graphic file (type jpg)
 <use ./plots/D_model.jpg>
-Package pdftex.def Info: ./plots/D_model.jpg  used on input line 88.
+Package pdftex.def Info: ./plots/D_model.jpg  used on input line 91.
 (pdftex.def)             Requested size: 240.30135pt x 157.39035pt.
 )
-(expsetting.tex
+(expsetting.tex [2 <./plots/GAN_model.png>]) (results.tex
+<./plots/pdf_2D_fit.png, id=91, 1228.59pt x 433.62pt>
+File: ./plots/pdf_2D_fit.png Graphic file (type png)
+<use ./plots/pdf_2D_fit.png>
+Package pdftex.def Info: ./plots/pdf_2D_fit.png  used on input line 12.
+(pdftex.def)             Requested size: 523.24583pt x 184.67313pt.
+Package epstopdf Info: Source file: <./plots/losses_2D.eps>
+(epstopdf)                    date: 2018-07-01 15:03:07
+(epstopdf)                    size: 932433 bytes
+(epstopdf)             Output file: <./plots/losses_2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-07-02 14:52:59
+(epstopdf)                    size: 235717 bytes
+(epstopdf)             Command: <epstopdf --outfile=./plots/losses_2D-eps-conve
+rted-to.pdf ./plots/losses_2D.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+<./plots/losses_2D-eps-converted-to.pdf, id=93, 1228.59pt x 578.16pt>
+File: ./plots/losses_2D-eps-converted-to.pdf Graphic file (type pdf)
+<use ./plots/losses_2D-eps-converted-to.pdf>
+Package pdftex.def Info: ./plots/losses_2D-eps-converted-to.pdf  used on input 
+line 17.
+(pdftex.def)             Requested size: 523.24583pt x 246.23083pt.
+Package epstopdf Info: Source file: <./plots/losses_MNIST.eps>
+(epstopdf)                    date: 2018-07-01 15:03:07
+(epstopdf)                    size: 66320 bytes
+(epstopdf)             Output file: <./plots/losses_MNIST-eps-converted-to.pdf>
 
-Package natbib Warning: Citation `bibid' on page 2 undefined on input line 3.
+(epstopdf)                    date: 2018-07-02 15:19:10
+(epstopdf)                    size: 23093 bytes
+(epstopdf)             Command: <epstopdf --outfile=./plots/losses_MNIST-eps-co
+nverted-to.pdf ./plots/losses_MNIST.eps>
+(epstopdf)             \includegraphics on input line 22.
+Package epstopdf Info: Output file is already uptodate.
+<./plots/losses_MNIST-eps-converted-to.pdf, id=95, 1228.59pt x 289.08pt>
+File: ./plots/losses_MNIST-eps-converted-to.pdf Graphic file (type pdf)
+<use ./plots/losses_MNIST-eps-converted-to.pdf>
+Package pdftex.def Info: ./plots/losses_MNIST-eps-converted-to.pdf  used on inp
+ut line 22.
+(pdftex.def)             Requested size: 523.24583pt x 123.1154pt.
+Package epstopdf Info: Source file: <./plots/MNIST_digits_evoling.eps>
+(epstopdf)                    date: 2018-07-01 15:03:07
+(epstopdf)                    size: 1744938 bytes
+(epstopdf)             Output file: <./plots/MNIST_digits_evoling-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2018-07-02 15:21:15
+(epstopdf)                    size: 128775 bytes
+(epstopdf)             Command: <epstopdf --outfile=./plots/MNIST_digits_evolin
+g-eps-converted-to.pdf ./plots/MNIST_digits_evoling.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+<./plots/MNIST_digits_evoling-eps-converted-to.pdf, id=97, 867.24pt x 867.24pt>
 
+File: ./plots/MNIST_digits_evoling-eps-converted-to.pdf Graphic file (type pdf)
 
-Underfull \vbox (badness 1314) has occurred while \output is active []
-
- [2 <./plots/G_model.png> <./plots/GAN_model.png>]) (results.tex) (conclusions.
-tex)
-(main.bbl [3 <./plots/D_model.jpg>]
+<use ./plots/MNIST_digits_evoling-eps-converted-to.pdf>
+Package pdftex.def Info: ./plots/MNIST_digits_evoling-eps-converted-to.pdf  use
+d on input line 27.
+(pdftex.def)             Requested size: 523.24583pt x 523.27252pt.
+) (conclusions.tex
+[3 <./plots/G_model.png> <./plots/D_model.jpg>] [4 <./plots/pdf_2D_fit.png> <./
+plots/losses_2D-eps-converted-to.pdf> <./plots/losses_MNIST-eps-converted-to.pd
+f>] [5 <./plots/MNIST_digits_evoling-eps-converted-to.pdf>]) (main.bbl
 Underfull \hbox (badness 7203) in paragraph at lines 35--40
 \T1/ptm/m/n/10 Xi-aolei Huang, Xi-ao-gang Wang, and Dim-itris N.
  []
 
 )
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-[4
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+ [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3C531F5E05F0BB053851A87206E80323;242.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 31659 strings out of 493305
- 577412 string characters out of 3138865
- 641219 words of memory out of 3000000
- 34683 multiletter control sequences out of 15000+200000
- 636816 words of font info for 125 fonts, out of 3000000 for 9000
+ 31692 strings out of 493305
+ 578414 string characters out of 3138865
+ 642047 words of memory out of 3000000
+ 34706 multiletter control sequences out of 15000+200000
+ 635709 words of font info for 124 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,63p,979b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,63p,979b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1792,9 +1841,9 @@ ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 1170069 bytes).
+Output written on main.pdf (6 pages, 1630057 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

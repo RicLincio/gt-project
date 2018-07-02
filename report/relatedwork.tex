@@ -19,7 +19,7 @@ We can then solve the equilibrium problem by computing the minimax of the payoff
 Loss functions are defined as:
 \begin{equation*}
 	\begin{split}
-		L^{(D)} = &-\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)]\\
+		L^{(D)} = &-\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)]+\\
 		          &- \mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))];\\
 		L^{(G)} = &- L^{(D)},
 	\end{split}
@@ -56,18 +56,21 @@ that implies:
 \begin{align*}
 	D^*(x) = \frac{p_{data}(x)}{p_{data}(x) + p_g(x)}.
 \end{align*}
-Minimizing then over $p_g(x)$, a point of minimum is found for $p_g = p_{data}$, where $V(G^*,D^*)=-\log(4)$ as proved in \cite{NIPS2014_5423}.
+Minimizing then $V(G,D^*)$ over $G$, the result is:
+\begin{equation*}
+	p_g = p_{data},
+\end{equation*}
+from which $D^*(x)=1/2$ and $V(G^*,D^*)=-\log(4)$ as proved in \cite{NIPS2014_5423}.
 
 Cross-entropy loss functions are particularly effective for discrimination tasks, but they're not for generation ones because, in the beginning of the training phase, when G is poor and D is able to correctly recognize generated samples, $\log(1-D(G(z)))$ \textit{saturates} to zero, thus resulting in a poor gradient for backpropagation. The learning in that case is too slow, but this problem can be avoided changing the loss function for G: instead of minimizing $\log(1-D(G(z)))$, we can maximize $\log(D(G(z)))$. This is formally defined as a Non-Saturating GAN (NS-GAN), where the losses to be minimized are:
 \begin{equation*}
-\begin{split}
-L^{(D)} = &-\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)]\\
-&- \mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))];\\
-L^{(G)} = &- \log(D(G(z))),
-\end{split}
+	\begin{split}
+		L^{(D)} = &-\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)]+\\
+			      &- \mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))];\\
+		L^{(G)} = &- \log(D(G(z))),
+	\end{split}
 \end{equation*}
-
-This new game isn't zero-sum any more, but the same equilibrium point of the dynamics can be found as before, thus providing the same theoretical results.
+This new game isn't zero-sum any more, but the same equilibrium point of the dynamics can be found as before. 
 
 \begin{figure}
 	\begin{center}

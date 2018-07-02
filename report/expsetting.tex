@@ -1,11 +1,14 @@
 \section{EXPERIMENTAL SETTING} \label{expsetting}
 
-For our project, we implemented a version of NS-GAN which can be found at \cite{bibid}. The training of the two neural networks, depicted in FIG.X, occurs after mini-batches of data are passed to them: for the discriminator network D, in a mini-batch there are usually the same number of true and of fake images. We instead carried out the training with different configurations, where D is passed different true-to-fake data ratios: this is done in practice defining a parameter $\alpha$ that represents the portion of true data with respect to the size of the mini-batch. This results in a parametrisation of the loss functions as follows:
-\begin{align*}
-	L^{(D)}=-\alpha\cdot\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)] \\
-	- (1-\alpha)\cdot\mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))]\\
-	L^{(G)}=-L^{(D)}
-\end{align*}
+For our project, we implemented a version of NS-GAN which can be found at [github.com/RicLincio/gt-project]. The training of the two neural networks, depicted in fig.\ref{fig:netG} and fig.\ref{fig:netD}, occurs after mini-batches of data are passed to them: for the discriminator network D, in a mini-batch there are usually the same number of true and of fake images. We instead carried out the training with different configurations, where D is passed different true-to-fake data ratios: this is done in practice defining a parameter $\alpha\in[0,1]$ that represents the portion of true data with respect to the size of the mini-batch.
+Considering a zero-sum game, this results in a parametrisation of the loss functions as follows:
+\begin{equation*}
+	\begin{split}
+		L^{(D)} = &-\alpha\cdot\mathbb{E}_{x \sim p_{data}(x)}[\log D(x)]+\\
+				  &-(1-\alpha)\cdot\mathbb{E}_{z \sim p_{z}(z)}[\log (1-D(G(z)))];\\
+		L^{(G)} = &- L^{(D)}.
+	\end{split}
+\end{equation*}
 Performing the same analysis as before, we found that the optimal discriminator should have the form:
 \begin{align*}
 	D_{\alpha}^*(x) = \frac{\alpha \cdot p_{data}(x)}{\alpha \cdot p_{data}(x) + (1-\alpha)\cdot p_g(x)}
@@ -18,10 +21,19 @@ from which the optimal D can be rewritten as
 \begin{align*}
 	D_{\alpha}^*(x) = \alpha.
 \end{align*}
-In support of these results, it can also be noticed that when setting $\alpha = 0.5$, i.e. when there are the same amount of true and fake images in a mini-batch, results are consistent with what found in \ref{relatedwork}.
+Supporting these results, it can also be noticed that when setting $\alpha = 0.5$, i.e. when there are the same amount of true and fake images in a mini-batch, results are consistent with what found in \ref{relatedwork}. The value of the game here is:
+\begin{align*}
+	V(G^*,D^*_\alpha) = -\alpha\cdot\log(\alpha) - (1-\alpha)\cdot\log(1-\alpha).
+\end{align*}
+As before the equilibrium point can be extended to the case of NS-GAN, though with different losses:
+\begin{equation*}
+	\begin{split}
+		L^{(D)} = &V(G^*,D^*_\alpha) = -\alpha\cdot\log(\alpha) - (1-\alpha)\cdot\log(1-\alpha),\\
+		L^{(G)} = &-\log(\alpha).
+	\end{split}
+\end{equation*}
 
-To evaluate the effects of this parametrisation, we preliminarily trained the NS-GAN models on two different 2D distributions, defined ad-hoc and affected by noise: first on a line described by a polynomial function and then on a circle.
+To evaluate the effects of this parametrisation, we preliminarily trained the NS-GAN models on two different 2D artificial datasets: first on a "sigmoid-shaped" line and then on a circle, as can be seen in \ref{fig:2Dplots}.
 The values of $\alpha$ that we tested are $\alpha = \{0.1,0.3,0.5,0.7,0.9\}$.
-Distribution parameters in these cases are irrelevant because they would influence only the scale of the generated points and, anyway, the true generating distribution couldn't be compared to the one defined by G which is inferred implicitly.
-Once evaluated the two artificial distribution, we tested our code also on the MNIST dataset on the same values of $\alpha$.
+Once evaluated on the two artificial distribution, we tested our code also on the MNIST dataset on the same values of $\alpha$.
 All results are reported in \ref{results}.

@@ -1,6 +1,30 @@
 \section{RESULTS} \label{results}
 
-We first report here the results obtained on the two 2D datasets. In FIG.X the losses for both D and G are plotted, as functions of the epochs. It can be immediately noticed that for both data distributions, the highest loss for the discriminator is obtained with $\alpha=0.5$ which foretells the training of a good generator (notice that for this $\alpha$, as expected, $L^{(D)}$ converges to $\ln(2)=0.693$). Anyway also with $\alpha=\{0.3,0.7\}$ good results are achieved in this sense. From the generator's losses it can be noticed that, the lower $\alpha$, the faster the loss convergence to the final value. An insight on how well are points generated is given in FIG.X, where for different values of $\alpha$ we can see how points are generated after 30000 training epochs: these results confirm what expected, that is better performances from more balanced number of true images per mini-batch.
+We first report here the results obtained on the two 2D datasets. In fig.\ref{fig:2Dplots} points generated after 3000 epochs are displayed, while in fig.\ref{fig:2Dlosses} the losses for both D and G are plotted, as functions of the epochs, i.e. cycles over the entire dataset.
+As we can see in fig.\ref{fig:2Dlosses}, the G loss converges to the theoretical optimum loss value, which is $-\log(\alpha)$, and the same happens for D, to the respective values.
+
+It can be immediately noticed that for both data distributions, the highest loss for the discriminator is obtained with $\alpha=0.5$ which foretells the training of a good generator (notice that for this $\alpha$, as expected, $L^{(D)}$ converges to $\ln(2)=0.693$). Anyway also with $\alpha=\{0.3,0.7\}$ good results are achieved in this sense. From the generator's losses it can be noticed that, the lower $\alpha$, the faster the loss convergence to the final value. An insight on how well are points generated is given in FIG.X, where for different values of $\alpha$ we can see how points are generated after 3000 training epochs: these results confirm what expected, that is better performances from more balanced number of true images per mini-batch.
 
 When applying the model to the MNIST dataset, similar results are obtained FIG.X, with losses for the discriminator approaching this time $0.5$ for $\alpha=\{0.3,0.5,0.7\}$. Also in this data space, as pointed out in the figure, when mini-batches are more balanced the D loss is higher, indicating better generators.
 The evolution of how numbers are generated is depicted in FIG.X, where for each $\alpha$, every 20 and up to 100 epochs, a grid with 36 outputs are displayed. Also here for lower values of $\alpha$, the generator outputs acceptable images much faster, as observed for the 2D case.
+
+\begin{figure*}
+	\includegraphics*[width=\textwidth]{./plots/pdf_2D_fit.png}
+	\caption{blue points are samples from the true distribution $p_{data}$, red dots are 100 samples generated from $p_g$, after the model was trained on 3000 epochs with mini-batch size 128 and a noise dimensionality of 10.}
+	\label{fig:2Dplots}
+\end{figure*}
+\begin{figure*}
+	\includegraphics*[width=\textwidth]{./plots/losses_2D.eps}
+	\caption{losses for 2D datasets of both G and D for all values of $\alpha$. Dashed lines in 'G Loss' plots represent the theoretical optimal values $-\log(\alpha)$}
+	\label{fig:2Dlosses}
+\end{figure*}
+\begin{figure*}
+	\includegraphics*[width=\textwidth]{./plots/losses_MNIST.eps}
+	\caption{losses for 2D datasets of both G and D for all values of $\alpha$. Dashed lines in 'G Loss' plots represent the theoretical optimal values $-\log(\alpha)$}
+	\label{fig:MNISTlosses}
+\end{figure*}
+\begin{figure*}
+	\includegraphics*[width=\textwidth]{./plots/MNIST_digits_evoling.eps}
+	\caption{blue points are samples from the true distribution $p_{data}$, red dots are 100 samples generated from $p_g$, after the model was trained on 3000 epochs with mini-batch size 128 and a noise dimensionality of 10.}
+	\label{fig:MNISTplots}
+\end{figure*}

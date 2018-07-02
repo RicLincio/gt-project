@@ -13,16 +13,16 @@ When training the model on the MNIST dataset, results for the losses, as shown i
 \end{figure*}
 \begin{figure*}
 	\includegraphics*[width=\textwidth]{./plots/losses_2D.eps}
-	\caption{losses for 2D datasets of both G and D for all values of $\alpha$. Dashed lines in 'G Loss' plots represent the theoretical optimal values $-\log(\alpha)$}
+	\caption{losses for 2D datasets of both G and D for all values of $\alpha$. Dashed lines represent the theoretical optimal values.}
 	\label{fig:2Dlosses}
 \end{figure*}
 \begin{figure*}
 	\includegraphics*[width=\textwidth]{./plots/losses_MNIST.eps}
-	\caption{losses for 2D datasets of both G and D for all values of $\alpha$. Dashed lines in 'G Loss' plots represent the theoretical optimal values $-\log(\alpha)$}
+	\caption{losses on MNIST dataset of both G and D for all values of $\alpha$ as functions of epochs.}
 	\label{fig:MNISTlosses}
 \end{figure*}
 \begin{figure*}
 	\includegraphics*[width=\textwidth]{./plots/MNIST_digits_evoling.eps}
-	\caption{blue points are samples from the true distribution $p_{data}$, red dots are 100 samples generated from $p_g$, after the model was trained on 3000 epochs with mini-batch size 128 and a noise dimensionality of 10.}
+	\caption{grids of generated images from the model trained on the MNIST dataset, for all values of $\alpha$ and epochs $\{1,20,40,60,80,100\}$.}
 	\label{fig:MNISTplots}
 \end{figure*}

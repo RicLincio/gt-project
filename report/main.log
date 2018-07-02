@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  2 JUL 2018 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.21)  2 JUL 2018 16:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -1743,26 +1743,26 @@ Package pdftex.def Info: ./plots/D_model.jpg  used on input line 91.
 (pdftex.def)             Requested size: 240.30135pt x 157.39035pt.
 )
 (expsetting.tex [2 <./plots/GAN_model.png>]) (results.tex
-<./plots/pdf_2D_fit.png, id=91, 1228.59pt x 433.62pt>
+<./plots/pdf_2D_fit.png, id=94, 1228.59pt x 433.62pt>
 File: ./plots/pdf_2D_fit.png Graphic file (type png)
 <use ./plots/pdf_2D_fit.png>
-Package pdftex.def Info: ./plots/pdf_2D_fit.png  used on input line 12.
+Package pdftex.def Info: ./plots/pdf_2D_fit.png  used on input line 10.
 (pdftex.def)             Requested size: 523.24583pt x 184.67313pt.
 Package epstopdf Info: Source file: <./plots/losses_2D.eps>
-(epstopdf)                    date: 2018-07-01 15:03:07
-(epstopdf)                    size: 932433 bytes
+(epstopdf)                    date: 2018-07-02 16:09:21
+(epstopdf)                    size: 895632 bytes
 (epstopdf)             Output file: <./plots/losses_2D-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-07-02 14:52:59
-(epstopdf)                    size: 235717 bytes
+(epstopdf)                    date: 2018-07-02 16:10:27
+(epstopdf)                    size: 236157 bytes
 (epstopdf)             Command: <epstopdf --outfile=./plots/losses_2D-eps-conve
 rted-to.pdf ./plots/losses_2D.eps>
-(epstopdf)             \includegraphics on input line 17.
+(epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./plots/losses_2D-eps-converted-to.pdf, id=93, 1228.59pt x 578.16pt>
+<./plots/losses_2D-eps-converted-to.pdf, id=96, 1228.59pt x 578.16pt>
 File: ./plots/losses_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use ./plots/losses_2D-eps-converted-to.pdf>
 Package pdftex.def Info: ./plots/losses_2D-eps-converted-to.pdf  used on input 
-line 17.
+line 15.
 (pdftex.def)             Requested size: 523.24583pt x 246.23083pt.
 Package epstopdf Info: Source file: <./plots/losses_MNIST.eps>
 (epstopdf)                    date: 2018-07-01 15:03:07
@@ -1773,13 +1773,13 @@ Package epstopdf Info: Source file: <./plots/losses_MNIST.eps>
 (epstopdf)                    size: 23093 bytes
 (epstopdf)             Command: <epstopdf --outfile=./plots/losses_MNIST-eps-co
 nverted-to.pdf ./plots/losses_MNIST.eps>
-(epstopdf)             \includegraphics on input line 22.
+(epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-<./plots/losses_MNIST-eps-converted-to.pdf, id=95, 1228.59pt x 289.08pt>
+<./plots/losses_MNIST-eps-converted-to.pdf, id=98, 1228.59pt x 289.08pt>
 File: ./plots/losses_MNIST-eps-converted-to.pdf Graphic file (type pdf)
 <use ./plots/losses_MNIST-eps-converted-to.pdf>
 Package pdftex.def Info: ./plots/losses_MNIST-eps-converted-to.pdf  used on inp
-ut line 22.
+ut line 20.
 (pdftex.def)             Requested size: 523.24583pt x 123.1154pt.
 Package epstopdf Info: Source file: <./plots/MNIST_digits_evoling.eps>
 (epstopdf)                    date: 2018-07-01 15:03:07
@@ -1790,20 +1790,20 @@ Package epstopdf Info: Source file: <./plots/MNIST_digits_evoling.eps>
 (epstopdf)                    size: 128775 bytes
 (epstopdf)             Command: <epstopdf --outfile=./plots/MNIST_digits_evolin
 g-eps-converted-to.pdf ./plots/MNIST_digits_evoling.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<./plots/MNIST_digits_evoling-eps-converted-to.pdf, id=97, 867.24pt x 867.24pt>
-
+<./plots/MNIST_digits_evoling-eps-converted-to.pdf, id=100, 867.24pt x 867.24pt
+>
 File: ./plots/MNIST_digits_evoling-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./plots/MNIST_digits_evoling-eps-converted-to.pdf>
 Package pdftex.def Info: ./plots/MNIST_digits_evoling-eps-converted-to.pdf  use
-d on input line 27.
+d on input line 25.
 (pdftex.def)             Requested size: 523.24583pt x 523.27252pt.
-) (conclusions.tex
+) (conclusions.tex)
 [3 <./plots/G_model.png> <./plots/D_model.jpg>] [4 <./plots/pdf_2D_fit.png> <./
 plots/losses_2D-eps-converted-to.pdf> <./plots/losses_MNIST-eps-converted-to.pd
-f>] [5 <./plots/MNIST_digits_evoling-eps-converted-to.pdf>]) (main.bbl
+f>] [5 <./plots/MNIST_digits_evoling-eps-converted-to.pdf>] (main.bbl
 Underfull \hbox (badness 7203) in paragraph at lines 35--40
 \T1/ptm/m/n/10 Xi-aolei Huang, Xi-ao-gang Wang, and Dim-itris N.
  []
@@ -1841,9 +1841,9 @@ ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 les/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1630057 bytes).
+Output written on main.pdf (6 pages, 1630607 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
+ 317 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
